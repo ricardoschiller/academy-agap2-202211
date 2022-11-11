@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Agap2IT.Labs.MusicLibrary.Dal\Agap2IT.Labs.MusicLibrary.Dal.csproj" />
+    <ProjectReference Include="..\Agap2IT.Labs.MusicLibrary.Data\Agap2IT.Labs.MusicLibrary.Data.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Exceptions\" />
+  </ItemGroup>
+
+</Project>

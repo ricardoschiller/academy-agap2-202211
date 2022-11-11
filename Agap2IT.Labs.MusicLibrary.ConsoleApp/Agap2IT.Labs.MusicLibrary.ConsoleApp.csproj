@@ -15,6 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Agap2IT.Labs.MusicLibrary.Business\Agap2IT.Labs.MusicLibrary.Business.csproj" />
     <ProjectReference Include="..\Agap2IT.Labs.MusicLibrary.Dal\Agap2IT.Labs.MusicLibrary.Dal.csproj" />
     <ProjectReference Include="..\Agap2IT.Labs.MusicLibrary.Data\Agap2IT.Labs.MusicLibrary.Data.csproj" />
   </ItemGroup>
